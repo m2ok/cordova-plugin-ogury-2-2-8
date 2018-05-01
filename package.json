@@ -3,9 +3,17 @@
     "name": "org.ogury.cordova.plugin",
     "cordova_name": "OguryCordovaPlugin",
     "description": "cordova ogury plugin",
-    "repo": "https://github.com/m2ok/cordova-plugin-ogury-2-2-8",
+    "repository":{
+        "type":"git",
+        "url":"git+https://github.com/m2ok/cordova-plugin-ogury-2-2-8.git"
+    },
     "platforms": [
         "android"
     ],
-    "engines": []
+    "engines":{
+        "name":"cordova",
+        "version":">=3.0.0"
+    },
+    "author":"",
+    "license": "MIT"
 }
